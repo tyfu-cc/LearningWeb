@@ -8,12 +8,14 @@ h1 {
 	font-family: Courier;
 	font-size: 30px;
 	margin-bottom: 15px;
+	margin-top: 40px;
 }
 
 p {
-	padding: 20px 30px 10px 30px;
+	padding: 10px 40px 10px 40px;
+	margin-top: 35px;
 	width: 100%;
-	height: 125px;
+	height: 140px;
 	overflow: hidden;
 }
 
@@ -26,12 +28,15 @@ p {
 	border: 2px solid black;
 	background-color: grey;
 	height: 200px;
+	position: relative
 }
  
 .menu-title {
-	width: 125px;
+	width: 100px;
 	height: 35px;
-	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 	border-width: 0px 0px 2px 2px;
 	border-style: solid;
 	border-color: black;
@@ -50,7 +55,7 @@ p {
 }
 
 #sushi {
-	background-color: brown;
+	background-color: khaki;
 }
 
 @media (min-width: 992px) {
